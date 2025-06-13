@@ -19,7 +19,7 @@ public class StandAloneTest {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-		
+		// new comment added
 		String productName="ZARA COAT 3";
 		System.setProperty("webdriver.chrome.driver", "D:\\eclipseWorkspace\\shoppingcart\\shoppingcartpractice\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
