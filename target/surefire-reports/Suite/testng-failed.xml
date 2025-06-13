@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="dimpletesting.TestComponents.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="Error Validation Test(failed)" verbose="0">
+    <classes>
+      <class name="dimpletesting.test.ErrorValidationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="ProductErrorValidation"/>
+          <include name="LaunchApplication"/>
+        </methods>
+      </class> <!-- dimpletesting.test.ErrorValidationTest -->
+    </classes>
+  </test> <!-- Error Validation Test(failed) -->
+  <test thread-count="5" parallel="tests" name="Submit Order Test(failed)" verbose="0">
+    <classes>
+      <class name="dimpletesting.test.SubmitOrderTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="OrderHistoryTest"/>
+          <include name="LaunchApplication"/>
+          <include name="submitOrder" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- dimpletesting.test.SubmitOrderTest -->
+    </classes>
+  </test> <!-- Submit Order Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

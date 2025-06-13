@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-12T08:26:35 AEST" name="Suite" finished-at="2025-06-12T08:30:29 AEST" duration-ms="234136">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationTest.LoginErrorValidation()[pri:0, instance:dimpletesting.test.ErrorValidationTest@12591ac8]" name="LoginErrorValidation" class="dimpletesting.test.ErrorValidationTest"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:dimpletesting.test.SubmitOrderTest@65987993]" name="submitOrder" class="dimpletesting.test.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2025-06-12T08:26:35 AEST" name="Error Validation Test" finished-at="2025-06-12T08:29:58 AEST" duration-ms="203170">
+      <class name="dimpletesting.test.ErrorValidationTest">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:dimpletesting.test.ErrorValidationTest@12591ac8]" started-at="2025-06-12T08:26:35 AEST" name="LaunchApplication" finished-at="2025-06-12T08:28:02 AEST" duration-ms="86560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="LoginErrorValidation()[pri:0, instance:dimpletesting.test.ErrorValidationTest@12591ac8]" started-at="2025-06-12T08:28:02 AEST" name="LoginErrorValidation" finished-at="2025-06-12T08:28:10 AEST" duration-ms="7619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dimpletesting.test.ErrorValidationTest@12591ac8]" started-at="2025-06-12T08:28:10 AEST" name="tearDown" finished-at="2025-06-12T08:28:26 AEST" duration-ms="16342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:dimpletesting.test.ErrorValidationTest@12591ac8]" started-at="2025-06-12T08:28:26 AEST" name="LaunchApplication" finished-at="2025-06-12T08:29:05 AEST" duration-ms="38817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="ProductErrorValidation()[pri:0, instance:dimpletesting.test.ErrorValidationTest@12591ac8]" started-at="2025-06-12T08:29:05 AEST" name="ProductErrorValidation" finished-at="2025-06-12T08:29:27 AEST" duration-ms="22546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dimpletesting.test.ErrorValidationTest@12591ac8]" started-at="2025-06-12T08:29:27 AEST" name="tearDown" finished-at="2025-06-12T08:29:58 AEST" duration-ms="30921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- dimpletesting.test.ErrorValidationTest -->
+    </test> <!-- Error Validation Test -->
+    <test started-at="2025-06-12T08:26:35 AEST" name="Submit Order Test" finished-at="2025-06-12T08:30:29 AEST" duration-ms="234136">
+      <class name="dimpletesting.test.SubmitOrderTest">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:dimpletesting.test.SubmitOrderTest@65987993]" started-at="2025-06-12T08:26:40 AEST" name="LaunchApplication" finished-at="2025-06-12T08:28:02 AEST" duration-ms="82232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:dimpletesting.test.SubmitOrderTest@65987993]" started-at="2025-06-12T08:28:02 AEST" name="submitOrder" data-provider="getData" finished-at="2025-06-12T08:28:26 AEST" duration-ms="23940" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Abcd-1234, product=ZARA COAT 3, email=dimple@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dimpletesting.test.SubmitOrderTest@65987993]" started-at="2025-06-12T08:28:26 AEST" name="tearDown" finished-at="2025-06-12T08:28:34 AEST" duration-ms="8253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:dimpletesting.test.SubmitOrderTest@65987993]" started-at="2025-06-12T08:28:34 AEST" name="LaunchApplication" finished-at="2025-06-12T08:29:20 AEST" duration-ms="46147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:dimpletesting.test.SubmitOrderTest@65987993]" started-at="2025-06-12T08:29:20 AEST" name="submitOrder" data-provider="getData" finished-at="2025-06-12T08:29:45 AEST" duration-ms="24281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Abcd-1234, product=ADIDAS ORIGINAL, email=dimple@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dimpletesting.test.SubmitOrderTest@65987993]" started-at="2025-06-12T08:29:45 AEST" name="tearDown" finished-at="2025-06-12T08:29:58 AEST" duration-ms="13714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:dimpletesting.test.SubmitOrderTest@65987993]" started-at="2025-06-12T08:29:58 AEST" name="LaunchApplication" finished-at="2025-06-12T08:30:19 AEST" duration-ms="20469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="OrderHistoryTest()[pri:0, instance:dimpletesting.test.SubmitOrderTest@65987993]" started-at="2025-06-12T08:30:19 AEST" name="OrderHistoryTest" finished-at="2025-06-12T08:30:21 AEST" depends-on-methods="dimpletesting.test.SubmitOrderTest.submitOrder" duration-ms="2115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dimpletesting.test.SubmitOrderTest@65987993]" started-at="2025-06-12T08:30:21 AEST" name="tearDown" finished-at="2025-06-12T08:30:29 AEST" duration-ms="8253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- dimpletesting.test.SubmitOrderTest -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>
